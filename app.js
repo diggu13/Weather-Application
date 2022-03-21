@@ -17,7 +17,7 @@ function getWeather(e){
         alert('Enter inputs')
     }
     else{
-        fetch(`http://api.weatherapi.com/v1/current.json?key=17bb5aa9896f496f83891245221703&q=${search}&aqi=noa`).then(res => res.json())
+        fetch(`https://api.weatherapi.com/v1/current.json?key=17bb5aa9896f496f83891245221703&q=${search}&aqi=noa`).then(res => res.json())
         .then(data => {
             renderDom(data)
         })
