@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 50px 0;
+    font-family: 'Play', sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+}
+.container{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin:  0 auto;
+}
+
+label{
+    font-size: 22px;
+}
+
+.input-value{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(0, 0, 0, 0.192) ;
+    display: block;
+    margin: 8px auto;
+    outline: none;
+    padding: 0 4px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.submit{
+    padding: 10px 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    font-size:16px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.submit:hover{
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 8px 0 rgba(88, 103, 122, 0.75);
+}
+.weather-details{
+    width: 70%;
+    margin: auto;
+}
+.city-name_weather-img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+    gap: 3%;
+    color: white;
+    background-color: #4850584d;   
+    padding: 10px 0;
+    border-radius: 10px;
+
+}
+.weather-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    background-color: #bcd3e20e;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+/* media queries */
+@media screen and (max-width: 730px) {
+    .container{
+      width: 80%;
+      margin: auto;
+    }
+    .weather-details{
+        width: 90%;
+    }
+  }
