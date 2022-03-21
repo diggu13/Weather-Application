@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 *{
     padding: 0;
 }
@@ -92,4 +93,4 @@ label{
     .weather-details{
         width: 90%;
     }
-  }
+}
